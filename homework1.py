@@ -88,7 +88,7 @@ a0 = 0, a1 = 1, ak = ak-1 + ak-2 (k > 1).
 Выходные данные
 В выходной файл OUTPUT.TXT выведите N-е число Фибоначчи. """
 
-n = int(input('Введите N от 0 до 30: '))
+""" n = int(input('Введите N от 0 до 30: '))
 fib1 = 1
 fib2 = 1
 fib_sum = 1
@@ -97,4 +97,4 @@ for i in range(n - 2):
     fib1 = fib2
     fib2 = fib_sum
 if n > 0:
-    print(fib_sum)
+    print(fib_sum) """
