@@ -79,8 +79,6 @@ print("".join(map(str, n))) """
 # Пример:
 # - для k = 8 список будет выглядеть так: [-21 ,13, -8, 5, −3, 2, −1, 1, 0, 1, -1, 2, -3, 5, -8, 13, -21]
 
-from audioop import reverse
-
 n = 8
 fib = [0 for i in range(n+1)]
 fib[1] = 1
